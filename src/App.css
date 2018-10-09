@@ -4,8 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000000;
-}
+  background-color: #000000; }
 
 .box {
   margin: 0 auto;
@@ -13,13 +12,11 @@
   flex-wrap: wrap;
   justify-content: center;
   border-radius: 10px;
-  background-color: rgba(108, 207, 212, .6);
-  padding: 20px;
-  &__line {
+  background-color: rgba(108, 207, 212, 0.6);
+  padding: 20px; }
+  .box__line {
     width: 100%;
-    text-align: center;
-  }
-}
+    text-align: center; }
 
 .btn {
   background-color: #fff;
@@ -27,13 +24,12 @@
   border-radius: 10px;
   padding: 10px 30px;
   margin-right: 10px;
-  outline: none;
-  &:hover {
+  outline: none; }
+  .btn:hover {
     cursor: pointer;
     background-color: #000;
-    color: #fff;
-}
-  &:last-child {
-    margin-right: 0;
-  }
-}
+    color: #fff; }
+  .btn:last-child {
+    margin-right: 0; }
+
+/*# sourceMappingURL=App.css.map */
